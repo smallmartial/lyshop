@@ -1,6 +1,7 @@
 package cn.smallmartial.item.mapper;
 
 import cn.smallmartial.item.pojo.Category;
+import tk.mybatis.mapper.additional.idlist.IdListMapper;
 import tk.mybatis.mapper.common.Mapper;
 
 /**
@@ -8,5 +9,5 @@ import tk.mybatis.mapper.common.Mapper;
  * @Date 2019/4/12
  * @Email smallmarital@qq.com
  */
-public interface CategoryMapper extends Mapper<Category> {
+public interface CategoryMapper extends Mapper<Category>, IdListMapper <Category,Long>{
 }

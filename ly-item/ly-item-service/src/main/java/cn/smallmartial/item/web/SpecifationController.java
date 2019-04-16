@@ -47,6 +47,12 @@ public class SpecifationController {
         this.specificationService.updateSpecification(specification);
         return ResponseEntity.status(HttpStatus.OK).build();
     }
+
+    /**
+     * 删除规格模板
+     * @param id
+     * @return
+     */
     @DeleteMapping("{id}")
     public ResponseEntity<Void> deleteSpecification(@PathVariable("id")Long id){
 

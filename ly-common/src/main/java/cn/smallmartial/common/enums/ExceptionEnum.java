@@ -19,7 +19,9 @@ public enum ExceptionEnum {
     BRAND_SAVE_ERROR(500,"新增失败"),
     CREATE_NOT_FOND(500,"文件上传失败"),
     INVALID_NOT_FOND(500,"无效文件类型"),
+    GOODS_NOT_FOOD(404,"商品不存在"),
     ;
+
 
     private int code;
     private String msg;
