@@ -72,7 +72,7 @@ public class GoodsController {
         return ResponseEntity.ok(detail);
     }
     @GetMapping("sku/list")
-    public ResponseEntity<List<Sku>> queryBySkuSpuId(@Param("id")Long id){
+    public ResponseEntity<List<Sku>> queryBySkuSpuId(@RequestParam("id")Long id){
         List<Sku> skus=this.goodsService.querySkuSpuId(id);
         if (skus == null || skus.size() ==0){
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

@@ -21,6 +21,8 @@ public enum ExceptionEnum {
     INVALID_NOT_FOND(500,"无效文件类型"),
     GOODS_NOT_FOOD(404,"商品不存在"),
     GOOD_SAVE_ERROR(500,"商品创建失败"),
+    GOOD_SKU_NOT_FOND(404,"商品库存没查到"),
+    SPEC_PARAM_NOT_FIND(404,"商品规格不存在"),
     ;
 
 

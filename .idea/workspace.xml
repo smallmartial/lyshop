@@ -2,51 +2,39 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/service/UploadService.java" line="51" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/Repository/GoodsRepositoryTest.java" line="41" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a170688-5cb4-469c-9a16-b15baab8fb2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/mapper/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Sku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpecParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/SkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/SpecParamMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/StockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/BrandApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/CategoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/GoodsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/SpecificationApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/LySearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/Repository/GoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/BrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/GoodClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/SpecificationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/Repository/GoodsRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/client/CategoryClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/ly-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/ly-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/enums/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/enums/ExceptionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/cn/smallmartial/common/enums/ExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/target/classes/cn/smallmartial/common/enums/ExceptionEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/src/main/java/cn/smallmartial/gateway/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-gateway/src/main/java/cn/smallmartial/gateway/config/GlobalCorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/cn/smallmartial/gateway/config/GlobalCorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-gateway/target/classes/cn/smallmartial/gateway/config/GlobalCorsConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Spu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Spu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuBo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/cn/smallmartial/item/pojo/Spu.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/cn/smallmartial/item/pojo/Spu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/cn/smallmartial/item/pojo/SpuBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/cn/smallmartial/item/pojo/SpuBo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/cn/smallmartial/item/pojo/SpuDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/cn/smallmartial/item/pojo/SpuDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/SpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/SpecificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/ly-item-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/ly-item-interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/SpecifationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/SpecifationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/META-INF/ly-item-service.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/mapper/BrandMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/service/SpecificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/service/SpecificationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/SpecifationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/SpecifationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/ly-upload.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-upload/ly-upload.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/config/GlobalCorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/classes/cn/smallmartial/upload/config/GlobalCorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/cn/smallmartial/item/web/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,6 +45,7 @@
     <ignored path="$PROJECT_DIR$/ly-item/ly-item-interface/target/" />
     <ignored path="$PROJECT_DIR$/ly-common/target/" />
     <ignored path="$PROJECT_DIR$/ly-upload/target/" />
+    <ignored path="$PROJECT_DIR$/ly-search/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,25 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/GoodsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="373" column="1" selection-start-line="373" selection-start-column="1" selection-end-line="373" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#11495#11496#0" expanded="true" />
-                <element signature="e#11561#11562#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/SpecificationApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+            <state relative-caret-position="439">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,10 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Sku.java">
+        <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/GoodClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,43 +82,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Stock.java">
+        <entry file="file://$PROJECT_DIR$/ly-search/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="500">
+              <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuBo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/ItemController.java">
+        <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/Repository/GoodsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +103,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/SpecifationController.java">
+        <entry file="file://$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/Repository/GoodsRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="54" column="79" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
+            <state relative-caret-position="264">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="129" selection-start-line="29" selection-end-line="129" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,22 +127,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/SpecificationService.java">
+        <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/enums/ExceptionEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="339">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Spu.java">
+        <entry file="file://$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/client/CategoryClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+            <state relative-caret-position="189">
+              <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,8 +153,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -205,6 +166,8 @@
       <find>SkuMapper</find>
       <find>saveSkuAndStock</find>
       <find>update</find>
+      <find>querySkuBySpuId</find>
+      <find>querySpuByPage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,24 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Category.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/CategoryController.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/LyItemService.java" />
-        <option value="$PROJECT_DIR$/ly-gateway/src/main/java/cn/smallmartial/gateway/config/GloabalCorsConfig.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Brand.java" />
-        <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/vo/PageResult.java" />
-        <option value="$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/LyUploadApplication.java" />
-        <option value="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ly-upload/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/config/FastClientImporter.java" />
-        <option value="$PROJECT_DIR$/ly-upload/src/test/java/cn/smallmartial/upload/FdfsTest.java" />
-        <option value="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/config/UploadProperties.java" />
-        <option value="$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/service/UploadService.java" />
-        <option value="$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/web/UploadController.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpecGroup.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/SpecGroupMapper.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/SpecificationMapper.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Specification.java" />
@@ -239,7 +184,6 @@
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/GoodService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/BrandService.java" />
         <option value="$PROJECT_DIR$/ly-gateway/src/main/java/cn/smallmartial/gateway/config/GlobalCorsConfig.java" />
@@ -247,7 +191,6 @@
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Stock.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Spu.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/Sku.java" />
-        <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/enums/ExceptionEnum.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/SkuMapper.java" />
         <option value="$PROJECT_DIR$/ly-common/pom.xml" />
         <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/mapper/BaseMapper.java" />
@@ -262,8 +205,28 @@
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/SpecifationController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/SpecificationService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuDetail.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/ly-search/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/LySearchApplication.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/CategoryController.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/client/CategoryClientTest.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/CategoryApi.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/CategoryClient.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/GoodsApi.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/GoodClient.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/BrandApi.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/BrandClient.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/SpecificationClient.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/Repository/GoodsRepository.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/SpecificationApi.java" />
+        <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/Repository/GoodsRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -330,130 +293,6 @@
             <path>
               <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
               <item name="ly-item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -530,7 +369,7 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
               <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
@@ -594,19 +433,6 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
               <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
@@ -637,8 +463,75 @@
             <path>
               <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -646,15 +539,71 @@
             <path>
               <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyshop" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="smallmartial" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -669,7 +618,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555490955636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555581017246" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -680,6 +631,13 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.smallmartial.search.Repository" />
+      <recent name="cn.smallmartial.search.client" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\javademo\leyou\ly-common\src\main\java\cn\smallmartial\common\utils" />
     </key>
@@ -702,7 +660,23 @@
     </option>
     <option name="contentProportion" value="0.20013662" />
   </component>
-  <component name="RunManager" selected="Spring Boot.LyItemService">
+  <component name="RunManager" selected="JUnit.GoodsRepositoryTest.loadData">
+    <configuration name="CategoryClientTest.queryCategoryByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.smallmartial.search.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.smallmartial.search.client" />
+      <option name="MAIN_CLASS_NAME" value="cn.smallmartial.search.client.CategoryClientTest" />
+      <option name="METHOD_NAME" value="queryCategoryByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FdfsTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ly-upload" />
       <extension name="coverage">
@@ -719,17 +693,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FdfsTest.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly-upload" />
+    <configuration name="GoodsRepositoryTest.loadData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-search" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.smallmartial.upload.*" />
+          <option name="PATTERN" value="cn.smallmartial.search.Repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.smallmartial.upload" />
-      <option name="MAIN_CLASS_NAME" value="cn.smallmartial.upload.FdfsTest" />
-      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="PACKAGE_NAME" value="cn.smallmartial.search.Repository" />
+      <option name="MAIN_CLASS_NAME" value="cn.smallmartial.search.Repository.GoodsRepositoryTest" />
+      <option name="METHOD_NAME" value="loadData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsRepositoryTest.testCreateIndx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ly-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.smallmartial.search.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.smallmartial.search.Repository" />
+      <option name="MAIN_CLASS_NAME" value="cn.smallmartial.search.Repository.GoodsRepositoryTest" />
+      <option name="METHOD_NAME" value="testCreateIndx" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -745,6 +735,13 @@
     <configuration name="LyRegistry" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-registry" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.smallmartial.LyRegistry" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LySearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.smallmartial.LySearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -771,17 +768,22 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.FdfsTest.testUpload" />
-      <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
       <item itemvalue="Spring Boot.LyItemService" />
       <item itemvalue="Spring Boot.LyRegistry" />
       <item itemvalue="Spring Boot.LyUploadApplication" />
       <item itemvalue="Spring Boot.Lygateway" />
+      <item itemvalue="Spring Boot.LySearchApplication" />
+      <item itemvalue="JUnit.CategoryClientTest.queryCategoryByIds" />
+      <item itemvalue="JUnit.GoodsRepositoryTest.testCreateIndx" />
+      <item itemvalue="JUnit.GoodsRepositoryTest.loadData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoodsRepositoryTest.loadData" />
+        <item itemvalue="JUnit.GoodsRepositoryTest.testCreateIndx" />
+        <item itemvalue="JUnit.CategoryClientTest.queryCategoryByIds" />
         <item itemvalue="Spring Boot.Lygateway" />
         <item itemvalue="JUnit.FdfsTest.testUpload" />
-        <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
       </list>
     </recent_temporary>
   </component>
@@ -811,6 +813,7 @@
       <workItem from="1555377670313" duration="22795000" />
       <workItem from="1555479102457" duration="9308000" />
       <workItem from="1555552545973" duration="79000" />
+      <workItem from="1555567007328" duration="12816000" />
     </task>
     <servers />
   </component>
@@ -827,9 +830,27 @@
     <history-entry file="FdfsTest_testUpload - 2019.04.16 at 14h 25m 13s.xml">
       <configuration name="FdfsTest.testUpload" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CategoryClientTest_queryCategoryByIds - 2019.04.18 at 14h 49m 04s.xml">
+      <configuration name="CategoryClientTest.queryCategoryByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategoryClientTest_queryCategoryByIds - 2019.04.18 at 15h 20m 57s.xml">
+      <configuration name="CategoryClientTest.queryCategoryByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategoryClientTest_queryCategoryByIds - 2019.04.18 at 15h 23m 31s.xml">
+      <configuration name="CategoryClientTest.queryCategoryByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsRepositoryTest_testCreateIndx - 2019.04.18 at 15h 31m 22s.xml">
+      <configuration name="GoodsRepositoryTest.testCreateIndx" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsRepositoryTest_testCreateIndx - 2019.04.18 at 15h 32m 09s.xml">
+      <configuration name="GoodsRepositoryTest.testCreateIndx" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsRepositoryTest_loadData - 2019.04.18 at 17h 46m 20s.xml">
+      <configuration name="GoodsRepositoryTest.loadData" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92157000" />
+    <option name="totallyTimeSpent" value="104973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,10 +862,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="1913" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.3150134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.3150134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1024,24 +1045,6 @@
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/web/UploadController.java</url>
           <line>24</line>
@@ -1054,176 +1057,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/LocalWareHouse/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-upload/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="36" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/LocalWareHouse/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/base/update/UpdateByPrimaryKeySelectiveMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/java/cn/smallmartial/gateway/config/GlobalCorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-upload/src/test/java/cn/smallmartial/upload/FdfsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/config/GlobalCorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="21" column="57" selection-start-column="2" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/config/FastClientImporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/config/UploadProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/LyUploadApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/LocalWareHouse/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="170" column="4" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/web/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/enums/ExceptionEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1255,16 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1312,23 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1393,30 +1199,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/BrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Sku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/SpecificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Spu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1435,57 +1312,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/LySearchApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/GoodsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+        <state relative-caret-position="1812">
+          <caret line="74" column="66" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Sku.java">
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="-61">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Stock.java">
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/CategoryApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="400">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuBo.java">
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="1525">
+          <caret line="73" selection-start-line="73" selection-end-line="76" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/ItemController.java">
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/BrandApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/SpuDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="350">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1494,28 +1418,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/SpecifationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="54" column="79" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
+        <state relative-caret-position="914">
+          <caret line="47" selection-start-line="47" selection-end-line="53" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/SpecificationService.java">
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/CategoryClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="15" column="8" selection-start-line="15" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/pojo/Spu.java">
+    <entry file="file://$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/client/CategoryClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="189">
+          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/GoodClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/Repository/GoodsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/SpecificationClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/client/BrandClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/SpecificationApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/smallmartial/common/enums/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/test/java/cn/smallmartial/search/Repository/GoodsRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="129" selection-start-line="29" selection-end-line="129" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1574,7 +1582,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ly-upload</last-edited>
+          <last-edited>ly-search</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
