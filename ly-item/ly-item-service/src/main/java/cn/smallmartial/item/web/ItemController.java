@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Email smallmarital@qq.com
  */
 @RestController
-@RequestMapping("item")
+@RequestMapping("items")
 public class ItemController {
     @Autowired
     private ItemSevice itemSevice;

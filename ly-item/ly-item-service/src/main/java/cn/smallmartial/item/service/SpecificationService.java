@@ -1,9 +1,15 @@
 package cn.smallmartial.item.service;
 
+import cn.smallmartial.item.mapper.SpecGroupMapper;
+import cn.smallmartial.item.mapper.SpecParamMapper;
 import cn.smallmartial.item.mapper.SpecificationMapper;
+import cn.smallmartial.item.pojo.SpecGroup;
+import cn.smallmartial.item.pojo.SpecParam;
 import cn.smallmartial.item.pojo.Specification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @Author smallmartial
@@ -15,6 +21,11 @@ public class SpecificationService {
     @Autowired
     private SpecificationMapper specificationMapper;
 
+    @Autowired
+    private SpecGroupMapper specGroupMapper;
+
+    @Autowired
+    private SpecParamMapper specParamMapper;
     public Specification queryById(Long id) {
         return this.specificationMapper.selectByPrimaryKey(id);
     }
@@ -36,5 +47,20 @@ public class SpecificationService {
 
     public void deleteSpecification(Specification specification) {
         this.specificationMapper.deleteByPrimaryKey(specification);
+    }
+
+    public List<SpecGroup> queryBySpecGroups(Long cid) {
+        SpecGroup t = new SpecGroup();
+        t.setCid(cid);
+        return this.specGroupMapper.select(t);
+    }
+
+    public List<SpecParam> querySpecParams(Long gid, Long cid, Boolean searching, Boolean generic) {
+        SpecParam param = new SpecParam();
+        param.setGroupId(gid);
+        param.setCid(cid);
+        param.setSearching(searching);
+        param.setGeneric(generic);
+        return this.specParamMapper.select(param);
     }
 }

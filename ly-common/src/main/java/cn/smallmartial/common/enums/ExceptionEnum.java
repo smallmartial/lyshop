@@ -20,7 +20,9 @@ public enum ExceptionEnum {
     CREATE_NOT_FOND(500,"文件上传失败"),
     INVALID_NOT_FOND(500,"无效文件类型"),
     GOODS_NOT_FOOD(404,"商品不存在"),
+    GOOD_SAVE_ERROR(500,"商品创建失败"),
     ;
+
 
 
     private int code;

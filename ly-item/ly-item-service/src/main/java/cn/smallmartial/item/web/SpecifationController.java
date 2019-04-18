@@ -1,11 +1,16 @@
 package cn.smallmartial.item.web;
 
+import cn.smallmartial.item.pojo.SpecGroup;
+import cn.smallmartial.item.pojo.SpecParam;
 import cn.smallmartial.item.pojo.Specification;
 import cn.smallmartial.item.service.SpecificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @Author smallmartial
@@ -17,6 +22,12 @@ import org.springframework.web.bind.annotation.*;
 public class SpecifationController {
     @Autowired
     private SpecificationService specificationService;
+
+    /**
+     * 查询模块
+     * @param id
+     * @return
+     */
     @GetMapping("{id}")
     public ResponseEntity<String> querySpecificationByCategoryId(@PathVariable("id") Long id){
         Specification spec = this.specificationService.queryById(id);
@@ -25,6 +36,30 @@ public class SpecifationController {
         }
         return ResponseEntity.ok(spec.getSpecifications());
     }
+    @GetMapping("groups/{cid}")
+    public ResponseEntity<List<SpecGroup>> querySpecGroups(@PathVariable("cid")Long cid){
+        List<SpecGroup> list = this.specificationService.queryBySpecGroups(cid);
+        if (list ==null || list.size() == 0){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+
+        }
+        return ResponseEntity.ok(list);
+    }
+    @GetMapping("/params")
+    public ResponseEntity<List<SpecParam>> querySpecSpecParam(
+            @RequestParam(value = "gid",required = false) Long gid,
+            @RequestParam(value="cid", required = false) Long cid,
+            @RequestParam(value="searching", required = false) Boolean searching,
+            @RequestParam(value="generic", required = false) Boolean generic
+    ){
+        List<SpecParam> list = this.specificationService.querySpecParams(gid,cid,searching,generic);
+        if (list == null || list.size() == 0){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return ResponseEntity.ok(list);
+
+    }
+
 
     /**
      *添加规格模板
