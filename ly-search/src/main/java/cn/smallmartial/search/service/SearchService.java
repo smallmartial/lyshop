@@ -3,17 +3,26 @@ package cn.smallmartial.search.service;
 import cn.smallmartial.common.enums.ExceptionEnum;
 
 import cn.smallmartial.common.utils.JsonUtils;
+import cn.smallmartial.common.vo.PageResult;
 import cn.smallmartial.exception.LyException;
 import cn.smallmartial.item.pojo.*;
+import cn.smallmartial.search.Repository.GoodsRepository;
 import cn.smallmartial.search.client.BrandClient;
 import cn.smallmartial.search.client.CategoryClient;
 import cn.smallmartial.search.client.GoodClient;
 import cn.smallmartial.search.client.SpecificationClient;
 import cn.smallmartial.search.pojo.Goods;
+import cn.smallmartial.search.pojo.SearchRequest;
 import com.fasterxml.jackson.core.type.TypeReference;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
+import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.elasticsearch.core.query.FetchSourceFilter;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
@@ -41,6 +50,9 @@ public class SearchService {
 
     @Autowired
     private SpecificationClient specificationClient;
+
+    @Autowired
+    private GoodsRepository repository;
 
     public Goods bulidGoods(Spu spu){
         Long supId = spu.getId();
@@ -120,7 +132,7 @@ public class SearchService {
         goods.setCid3(spu.getCid3());
         goods.setCreateTime(spu.getCreateTime());
         goods.setId(spu.getId());
-        goods.setAll("");
+        goods.setAll(spu.getTitle() + " " + StringUtils.join(names, " "));
         goods.setPrice(priceList);
         goods.setSkus(JsonUtils.serialize(skus));
         goods.setSpecs(specs);
@@ -152,5 +164,25 @@ public class SearchService {
             }
         }
         return result;
+    }
+
+    public PageResult<Goods> search(SearchRequest request) {
+        Integer page = request.getPage() - 1;
+        Integer size = request.getSize();
+        //创建查询构建器
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+        //过滤
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{"id","skus","subTitle"}, null));
+        //分页
+        queryBuilder.withPageable(PageRequest.of(page,size));
+        //过滤
+        //queryBuilder.withQuery(QueryBuilders.matchQuery("all",request.getKey()));
+        //查询
+        Page<Goods> result = repository.search(queryBuilder.build());
+        //解析结果
+        long total = result.getTotalElements();
+        Integer totalPage =result.getTotalPages();
+        List<Goods> goodsList = result.getContent();
+        return new PageResult<>(total, totalPage, goodsList);
     }
 }

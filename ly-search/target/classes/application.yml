@@ -1,6 +1,8 @@
 server:
   port: 8083
 spring:
+  jackson:
+    default-property-inclusion: non_null
   application:
     name: search-service
   main:

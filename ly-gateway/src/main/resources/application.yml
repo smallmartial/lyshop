@@ -18,13 +18,14 @@ zuul:
   ignored-services: upload-service # 忽略upload-service服务
   routes:
     item-service: /item/** # 将商品微服务映射到/item/**
+    search-service: /search/**
     upload-service:
       path: /upload/**
       serviceId: upload-service
       strip-prefix: false
 ribbon:
-  ConnectTimeout: 1000 # 连接超时时间(ms)
-  ReadTimeout: 3500 # 通信超时时间(ms)
+  ConnectTimeout: 10000 # 连接超时时间(ms)
+  ReadTimeout: 350000 # 通信超时时间(ms)
   #OkToRetryOnAllOperations: true # 是否对所有操作重试
   MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
   MaxAutoRetries: 0 # 同一实例的重试次数
