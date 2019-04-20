@@ -4,6 +4,7 @@ import cn.smallmartial.item.pojo.Brand;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import tk.mybatis.mapper.additional.idlist.SelectByIdListMapper;
 import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.List;
  * @Date 2019/4/13
  * @Email smallmarital@qq.com
  */
-public interface BrandMapper extends Mapper<Brand> {
+public interface BrandMapper extends Mapper<Brand> ,SelectByIdListMapper<Brand,Long> {
     /**
      *
      * @param cid
