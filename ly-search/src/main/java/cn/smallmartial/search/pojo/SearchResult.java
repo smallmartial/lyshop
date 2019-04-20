@@ -16,7 +16,6 @@ import java.util.Map;
  * @Email smallmarital@qq.com
  */
 @Data
-
 public class SearchResult extends PageResult<Goods> {
 
     private List<Category> categories;//分类过滤条件

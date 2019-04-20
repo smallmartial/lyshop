@@ -6,15 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a170688-5cb4-469c-9a16-b15baab8fb2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/BrandApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/BrandApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/cn/smallmartial/search/pojo/SearchRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/target/classes/cn/smallmartial/search/pojo/SearchRequest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="238" selection-end-column="9" />
+            <state relative-caret-position="-775">
+              <caret line="240" selection-start-line="240" selection-end-line="277" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state>
+              <caret line="12" selection-start-line="12" selection-end-line="34" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,9 +59,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="550">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding>
+                <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#336#337#0" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
@@ -112,6 +108,7 @@
       <find>querySpuByPage</find>
       <find>querySpecSpecParam</find>
       <find>StringTerms</find>
+      <find>buildBasicQuery</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,9 +165,9 @@
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/service/BrandService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/cn/smallmartial/item/api/BrandApi.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/smallmartial/item/web/BrandController.java" />
-        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchResult.java" />
         <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchRequest.java" />
         <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchResult.java" />
       </list>
     </option>
   </component>
@@ -216,8 +213,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1902" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1853" />
+    <option name="y" value="5" />
     <option name="width" value="1939" />
     <option name="height" value="1060" />
   </component>
@@ -703,7 +701,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555724457004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555743313847" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -899,7 +897,7 @@
       <workItem from="1555479102457" duration="9308000" />
       <workItem from="1555552545973" duration="79000" />
       <workItem from="1555567007328" duration="18792000" />
-      <workItem from="1555643486709" duration="24477000" />
+      <workItem from="1555643486709" duration="31189000" />
     </task>
     <servers />
   </component>
@@ -936,7 +934,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135426000" />
+    <option name="totallyTimeSpent" value="142138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,10 +946,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1906" y="0" width="1551" height="848" extended-state="0" />
+    <frame x="1913" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.26590756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.2660858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1130,62 +1128,6 @@
           <line>31</line>
           <properties />
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>235</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>280</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>267</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>269</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>272</line>
-          <properties />
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>273</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>275</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>276</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java</url>
-          <line>277</line>
-          <properties />
-          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ly-upload/src/main/java/cn/smallmartial/upload/web/UploadController.java</url>
@@ -1616,30 +1558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Java/jdk1.8.0_162/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1657,10 +1575,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/pojo/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" selection-start-line="12" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/cn/smallmartial/search/service/SearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="238" selection-end-column="9" />
+        <state relative-caret-position="-775">
+          <caret line="240" selection-start-line="240" selection-end-line="277" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

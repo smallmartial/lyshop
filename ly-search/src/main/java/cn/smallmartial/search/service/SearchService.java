@@ -19,10 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
 import org.elasticsearch.action.search.SearchResponse;
-import org.elasticsearch.index.query.MatchQueryBuilder;
-import org.elasticsearch.index.query.Operator;
-import org.elasticsearch.index.query.QueryBuilder;
-import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.index.query.*;
 import org.elasticsearch.search.aggregations.Aggregation;
 import org.elasticsearch.search.aggregations.AggregationBuilder;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
@@ -198,9 +195,9 @@ public class SearchService {
         queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{"id","skus","subTitle"}, null));
         //分页
         queryBuilder.withPageable(PageRequest.of(page,size));
-        //过滤 todo 如果有问题注释掉
-        MatchQueryBuilder basicQuery = QueryBuilders.matchQuery("all", key).operator(Operator.AND);
-        //  QueryBuilder basicQuery = QueryBuilders.matchQuery("all", request.getKey());
+        //搜索条件 todo 如果有问题注释掉
+       // MatchQueryBuilder basicQuery = QueryBuilders.matchQuery("all", key).operator(Operator.AND);
+        QueryBuilder basicQuery = buildBasicQuery(request);
         // 构建查询条件
         queryBuilder.withQuery(basicQuery);
 
@@ -239,6 +236,45 @@ public class SearchService {
         }
 
         return new SearchResult(total,totalPage,goodsList,categories,brands,specs);
+    }
+
+    private QueryBuilder buildBasicQuery(SearchRequest request) {
+//        //创建布尔查询
+//        BoolQueryBuilder queryBuilder = QueryBuilders.boolQuery();
+//        //查询条件
+//        queryBuilder.must(QueryBuilders.matchQuery("all",request.getKey()));
+//        Map<String,String> map = request.getFilter();
+//        for (Map.Entry<String, String> entry : map.entrySet()) {
+//            String key = entry.getKey();
+//            //处理key
+//            if (!"cid3".equals(key) && !"brandId".equals(key)){
+//                key = "specs."+key+".keyword";
+//            }
+//            queryBuilder.filter(QueryBuilders.termQuery(key,entry.getValue()));
+//        }
+//
+//        //过滤条件
+//        return queryBuilder;
+        BoolQueryBuilder queryBuilder = QueryBuilders.boolQuery();
+        // 基本查询条件
+        queryBuilder.must(QueryBuilders.matchQuery("all", request.getKey()).operator(Operator.AND));
+        // 过滤条件构建器
+        BoolQueryBuilder filterQueryBuilder = QueryBuilders.boolQuery();
+        // 整理过滤条件
+        Map<String, String> filter = request.getFilter();
+        for (Map.Entry<String, String> entry : filter.entrySet()) {
+            String key = entry.getKey();
+            String value = entry.getValue();
+            // 商品分类和品牌要特殊处理
+            if (key != "cid3" && key != "brandId") {
+                key = "specs." + key + ".keyword";
+            }
+            // 字符串类型，进行term查询
+            filterQueryBuilder.must(QueryBuilders.termQuery(key, value));
+        }
+        // 添加过滤条件
+        queryBuilder.filter(filterQueryBuilder);
+        return queryBuilder;
     }
 
     /**

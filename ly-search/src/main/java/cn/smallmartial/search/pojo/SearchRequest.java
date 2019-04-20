@@ -14,6 +14,14 @@ public class SearchRequest {
 
     private String sortBy;
 
+    private Map<String ,String> filter;
+
+    private Boolean descending;
+
+    private static final Integer DEFAULT_SIZE = 20;// 每页大小，不从页面接收，而是固定大小
+
+    private static final Integer DEFAULT_PAGE = 1;// 默认页
+
     public Map<String, String> getFilter() {
         return filter;
     }
@@ -22,11 +30,7 @@ public class SearchRequest {
         this.filter = filter;
     }
 
-    private Map<String ,String> filter;
 
-    private Boolean descending;
-    private static final Integer DEFAULT_SIZE = 20;// 每页大小，不从页面接收，而是固定大小
-    private static final Integer DEFAULT_PAGE = 1;// 默认页
 
     public String getSortBy() {
         return sortBy;
