@@ -19,10 +19,7 @@ import tk.mybatis.mapper.entity.Example;
 
 
 import javax.persistence.Transient;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -399,6 +396,28 @@ public class GoodsService {
         // 更新spu详情
         this.spuDetailMapper.updateByPrimaryKeySelective(spu.getSpuDetail());
     }
+
+    public Spu querySpuById(Long id) {
+        Spu spu = spuMapper.selectByPrimaryKey(id);
+        //查询sku
+        spu.setSkus(querySkuSpuId(id));
+        //查询detail
+        spu.setSpuDetail(querySpuDetailById(id));
+
+        return spu;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 //    private void saveSkuAndStock(List<Sku> skus, Long spuId) {
 //        for (Sku sku : skus) {
 //            if (!sku.getEnable()) {

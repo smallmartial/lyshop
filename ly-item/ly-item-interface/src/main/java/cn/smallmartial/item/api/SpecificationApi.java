@@ -1,5 +1,6 @@
 package cn.smallmartial.item.api;
 
+import cn.smallmartial.item.pojo.SpecGroup;
 import cn.smallmartial.item.pojo.SpecParam;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,4 +21,6 @@ public interface SpecificationApi {
             @RequestParam(value="searching", required = false) Boolean searching,
             @RequestParam(value="generic", required = false) Boolean generic);
 
+    @GetMapping("spec/group")
+    List<SpecGroup> queryGroupByCid(@RequestParam("cid") Long cid);
 }

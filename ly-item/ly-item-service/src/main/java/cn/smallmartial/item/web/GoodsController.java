@@ -81,14 +81,14 @@ public class GoodsController {
         return ResponseEntity.ok(skus);
     }
 
-    @GetMapping("/spu/{id}")
-    public ResponseEntity<SpuBo> queryGoodsById(@PathVariable("id") Long id){
-        SpuBo spuBo = this.goodsService.queryGoodsById(id);
-        if (spuBo == null){
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-        }
-        return ResponseEntity.ok(spuBo);
-    }
+//    @GetMapping("/spu/{id}")
+//    public ResponseEntity<SpuBo> queryGoodsById(@PathVariable("id") Long id){
+//        SpuBo spuBo = this.goodsService.queryGoodsById(id);
+//        if (spuBo == null){
+//            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+//        }
+//        return ResponseEntity.ok(spuBo);
+//    }
     @PutMapping
     public ResponseEntity<Void> updateGoods(@RequestBody SpuBo spuBo){
         try {
@@ -101,22 +101,36 @@ public class GoodsController {
 
     }
 
+//    /**
+//     * 删除商品
+//     * @param ids
+//     * @return
+//     */
+//    @DeleteMapping("/spu/{id}")
+//    public ResponseEntity<Void> deleteGoods(@PathVariable("id") String ids){
+//        String separator = "-";
+//        if (ids.contains(separator)){
+//            String[] goodsId = ids.split(separator);
+//            for (String id: goodsId) {
+//                this.goodsService.deleteGoods(Long.parseLong(id));
+//            }
+//        }else {
+//            this.goodsService.deleteGoods(Long.parseLong(ids));
+//        }
+//        return ResponseEntity.status(HttpStatus.OK).build();
+//    }
+
     /**
-     * 删除商品
-     * @param ids
+     * 根据spu的id查询spu
+     * @param id
      * @return
      */
-    @DeleteMapping("/spu/{id}")
-    public ResponseEntity<Void> deleteGoods(@PathVariable("id") String ids){
-        String separator = "-";
-        if (ids.contains(separator)){
-            String[] goodsId = ids.split(separator);
-            for (String id: goodsId) {
-                this.goodsService.deleteGoods(Long.parseLong(id));
-            }
-        }else {
-            this.goodsService.deleteGoods(Long.parseLong(ids));
+    @GetMapping("spu/{id}")
+    public ResponseEntity<Spu> querySpuById(@PathVariable("id") Long id){
+        Spu spu = this.goodsService.querySpuById(id);
+        if(spu == null){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        return ResponseEntity.status(HttpStatus.OK).build();
+        return ResponseEntity.ok(spu);
     }
 }

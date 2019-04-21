@@ -2,6 +2,7 @@ package cn.smallmartial.item.api;
 
 import cn.smallmartial.common.vo.PageResult;
 import cn.smallmartial.item.pojo.Sku;
+import cn.smallmartial.item.pojo.Spu;
 import cn.smallmartial.item.pojo.SpuBo;
 import cn.smallmartial.item.pojo.SpuDetail;
 import org.springframework.http.HttpStatus;
@@ -33,7 +34,13 @@ public interface GoodsApi {
                 @RequestParam(value = "rows", defaultValue = "5") Integer rows,
                 @RequestParam(value = "saleable", defaultValue = "true") Boolean saleable,
                 @RequestParam(value = "key", required = false) String key);
-
+        /**
+         * 根据spu的id查询spu
+         * @param id
+         * @return
+         */
+        @GetMapping("spu/{id}")
+        Spu querySpuById(@PathVariable("id") Long id);
         /**
          * 根据spu商品id查询详情
          * @param id

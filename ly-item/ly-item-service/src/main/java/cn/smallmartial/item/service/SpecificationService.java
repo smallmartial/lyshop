@@ -9,7 +9,10 @@ import cn.smallmartial.item.pojo.Specification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author smallmartial
@@ -62,5 +65,28 @@ public class SpecificationService {
         param.setSearching(searching);
         param.setGeneric(generic);
         return this.specParamMapper.select(param);
+    }
+
+    public List<SpecGroup> queryListByCid(Long cid) {
+        //查询规格参数
+        List<SpecGroup> specGroups = queryBySpecGroups(cid);
+        //查询当前分类下的参数
+        List<SpecParam> specParams = querySpecParams(null, cid, null,null);
+        //先把规格参数变成map，map的key是规格组的id,map的值是组下的所有参数
+        Map<Long,List<SpecParam>> map = new HashMap<>();
+        for (SpecParam specParam : specParams) {
+            if (!map.containsKey(specParam.getGroupId())){
+                map.put(specParam.getGroupId(),new ArrayList<>());
+            }
+            map.get(specParam.getGroupId()).add(specParam);
+        }
+
+        //填充param到group
+        for (SpecGroup specGroup : specGroups) {
+            specGroup.setParams(map.get(specGroup.getId()));
+        }
+
+
+        return specGroups;
     }
 }
