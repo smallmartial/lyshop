@@ -105,4 +105,9 @@ public class FileService {
             }
         });
     }
+
+    public void deleteHtml(Long id) {
+        File file = new File(this.destPath, id + ".html");
+        file.deleteOnExit();
+    }
 }

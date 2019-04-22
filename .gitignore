@@ -27,3 +27,6 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+.idea/workspace.xml
+*.xml
+.idea/workspace.xml

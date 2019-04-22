@@ -5,13 +5,25 @@ spring:
     name: item-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/heima
+    url: jdbc:mysql://localhost:3306/heima?useUnicode=true&characterEncoding=utf8&useSSL=true
     username: root
     password: 123456
     hikari:
       maximum-pool-size: 30
       minimum-idle: 10
-
+  rabbitmq:
+    host: 182.254.227.85
+    username: leyou
+    password: 123
+    virtual-host: /
+    template:
+      retry:
+        enabled: true
+        initial-interval: 10000ms
+        max-interval: 300000ms
+        multiplier: 2
+      exchange: ly.item.exchange
+    publisher-confirms: true
 eureka:
   client:
     service-url:

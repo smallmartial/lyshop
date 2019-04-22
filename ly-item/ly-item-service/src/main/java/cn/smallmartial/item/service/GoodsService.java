@@ -11,6 +11,8 @@ import cn.smallmartial.item.pojo.*;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -47,6 +49,8 @@ public class GoodsService {
     @Autowired
     private StockMapper stockMapper;
 
+    @Autowired
+    private AmqpTemplate amqpTemplate;
     public PageResult<Spu> querySpuByPage(Integer page, Integer rows, Boolean saleable, String key) {
         //分页
         PageHelper.startPage(page,rows);
@@ -347,6 +351,8 @@ public class GoodsService {
 
         // 保存sku和库存信息
         saveSkuAndStock(spu.getSkus(), spu.getId());
+        //发送消息
+        sendMessage(spu.getId(),"insert");
     }
 
     public SpuDetail querySpuDetailById(Long id) {
@@ -386,6 +392,8 @@ public class GoodsService {
         // 新增sku和库存
         saveSkuAndStock(spu.getSkus(), spu.getId());
 
+        //发送消息
+        sendMessage(spu.getId(),"update");
         // 更新spu
         spu.setLastUpdateTime(new Date());
         spu.setCreateTime(null);
@@ -407,8 +415,18 @@ public class GoodsService {
         return spu;
     }
 
-
-
+    /**
+     * 封装发消息的mq
+     * @param id
+     * @param type
+     */
+    private void sendMessage(Long id, String type){
+        try {
+            this.amqpTemplate.convertAndSend("item."+type,id);
+        } catch (AmqpException e) {
+            e.printStackTrace();
+        }
+    }
 
 
 
