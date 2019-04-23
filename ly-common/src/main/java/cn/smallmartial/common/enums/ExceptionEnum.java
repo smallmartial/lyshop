@@ -23,6 +23,10 @@ public enum ExceptionEnum {
     GOOD_SAVE_ERROR(500,"商品创建失败"),
     GOOD_SKU_NOT_FOND(404,"商品库存没查到"),
     SPEC_PARAM_NOT_FIND(404,"商品规格不存在"),
+    INVALID_USER_DATA_TYPE(400,"用户数据类型不正确"),
+    INVALID_VERIFY_CODE(400,"验证码无效"),
+    INVALID_USERNAME_PASSWORD(400,"无效的用户名或者密码")
+
     ;
 
 

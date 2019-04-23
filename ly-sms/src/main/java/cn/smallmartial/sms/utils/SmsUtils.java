@@ -46,16 +46,16 @@ public class SmsUtils {
     private StringRedisTemplate redisTemplate;
 
     public SendSmsResponse sendSms(String phone, String code, String signName, String template) throws ClientException {
-        String key = KEY_PREFIX + phone;
-        //使用redis对手机号限流
-        String lastTime = redisTemplate.opsForValue().get(key);
-        if (StringUtils.isNotBlank(lastTime)){
-            Long last = Long.valueOf(lastTime);
-            if (System.currentTimeMillis() -last <SMS_MIN_INTERVAL_IN_MILIS){
-                logger.info("[短信频率过高：手机号码：{}",phone);
-                return null;
-            }
-        }
+//        String key = KEY_PREFIX + phone;
+//        //使用redis对手机号限流
+//        String lastTime = redisTemplate.opsForValue().get(key);
+//        if (StringUtils.isNotBlank(lastTime)){
+//            Long last = Long.valueOf(lastTime);
+//            if (System.currentTimeMillis() -last <SMS_MIN_INTERVAL_IN_MILIS){
+//                logger.info("[短信频率过高：手机号码：{}",phone);
+//                return null;
+//            }
+//        }
         //可自助调整超时时间
         System.setProperty("sun.net.client.defaultConnectTimeout", "10000");
         System.setProperty("sun.net.client.defaultReadTimeout", "10000");
@@ -89,7 +89,7 @@ public class SmsUtils {
         logger.info("发送短信状态：{}", sendSmsResponse.getCode());
         logger.info("发送短信消息：{}", sendSmsResponse.getMessage());
         //发送成功后写入redis
-        redisTemplate.opsForValue().set(key,String.valueOf(System.currentTimeMillis()),1, TimeUnit.MINUTES);
+     //   redisTemplate.opsForValue().set(key,String.valueOf(System.currentTimeMillis()),1, TimeUnit.MINUTES);
         return sendSmsResponse;
     }
 }

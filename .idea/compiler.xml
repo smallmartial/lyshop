@@ -16,6 +16,8 @@
         <module name="ly-search" />
         <module name="ly-sms" />
         <module name="ly-upload" />
+        <module name="ly-user-interface" />
+        <module name="ly-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +32,9 @@
       <module name="ly-search" target="1.8" />
       <module name="ly-sms" target="1.8" />
       <module name="ly-upload" target="1.8" />
+      <module name="ly-user" target="1.8" />
+      <module name="ly-user-interface" target="1.8" />
+      <module name="ly-user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -44,6 +49,9 @@
       <module name="ly-search" options="-parameters" />
       <module name="ly-sms" options="-parameters" />
       <module name="ly-upload" options="-parameters" />
+      <module name="ly-user" options="-parameters" />
+      <module name="ly-user-interface" options="-parameters" />
+      <module name="ly-user-service" options="-parameters" />
     </option>
   </component>
 </project>
