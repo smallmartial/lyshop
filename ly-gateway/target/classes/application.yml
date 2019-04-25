@@ -7,12 +7,16 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
-#    registry-fetch-interval-seconds: 5
-#  instance:
-#    prefer-ip-address: true
-#    ip-address: 127.0.0.1
-#    instance-id: ${spring.application.name}:${server.port}
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
 zuul:
+  sensitiveHeaders:
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
   prefix: /api # 添加路由前缀
   retryable: true
   ignored-services: upload-service # 忽略upload-service服务
@@ -20,10 +24,17 @@ zuul:
     item-service: /item/** # 将商品微服务映射到/item/**
     search-service: /search/**
     user-service: /user/**
+    auth-service:
+      path: /auth/**
+      #url: http://api.leyou.com #也可指定url
+      #strip‐prefix: true
+      #sensitiveHeaders:
     upload-service:
       path: /upload/**
       serviceId: upload-service
       strip-prefix: false
+  add-host-header: true
+  #sensitive-headers:
 ribbon:
   ConnectTimeout: 10000 # 连接超时时间(ms)
   ReadTimeout: 350000 # 通信超时时间(ms)

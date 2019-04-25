@@ -25,10 +25,11 @@ public enum ExceptionEnum {
     SPEC_PARAM_NOT_FIND(404,"商品规格不存在"),
     INVALID_USER_DATA_TYPE(400,"用户数据类型不正确"),
     INVALID_VERIFY_CODE(400,"验证码无效"),
-    INVALID_USERNAME_PASSWORD(400,"无效的用户名或者密码")
+    INVALID_USERNAME_PASSWORD(400,"无效的用户名或者密码"),
+    CREATE_TOKEN_ERROR(500,"用户凭证生成失败"),
+    UNAUTHORIZED(403,"未授权")
 
     ;
-
 
 
     private int code;

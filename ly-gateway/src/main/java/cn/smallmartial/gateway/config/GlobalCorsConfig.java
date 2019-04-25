@@ -1,10 +1,13 @@
 package cn.smallmartial.gateway.config;
 
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
+
+
 /**
  * @Author smallmartial
  * @Date 2019/4/13
@@ -19,8 +22,8 @@ public class GlobalCorsConfig {
         //1) 允许的域,不要写*，否则cookie就无法使用了
         config.addAllowedOrigin("http://manage.leyou.com");
         config.addAllowedOrigin("http://www.leyou.com");
-        //config.addAllowedOrigin("http://api.leyou.com/api/upload/image");
-        config.addAllowedOrigin("http://smallmartial.cn");
+        config.addAllowedOrigin("http://api.leyou.com/");
+        //config.addAllowedOrigin("http://smallmartial.cn");
 
         //2) 是否发送Cookie信息
         config.setAllowCredentials(true);
