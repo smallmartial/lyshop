@@ -12,7 +12,7 @@ spring:
     host: 182.254.227.85
 ly:
   sms:
-    accessKeyId: LTAID0gTr02ZjYZK # 你自己的accessKeyId
-    accessKeySecret: b2q61Bz3FMkero7TQdt9RxRgmvbPeZ # 你自己的AccessKeySecret
+    accessKeyId:  # 你自己的accessKeyId
+    accessKeySecret:  # 你自己的AccessKeySecret
     signName: 乐优商城 # 签名名称
     verifyCodeTemplate: SMS_164095133 # 模板名称
